@@ -64,6 +64,7 @@ function log(level, msg) {
 exports.info = function(msg) { log(0, msg) };
 exports.notice = function(msg) { log(1, msg) };
 exports.warn = function(msg) { log(2, msg) };
+exports.error = function(msg) { log(3, msg) };
 exports.die = function(err, exitCode) {
 	log(3, err);
 	process.exit(exitCode || 1);

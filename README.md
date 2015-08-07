@@ -22,6 +22,7 @@ Logger has 4 methods for logging:
 log.info("foo");   // yyyy/mm/dd HH:MM:SS INFO: foo
 log.notice("foo"); // yyyy/mm/dd HH:MM:SS NOTICE: foo
 log.warn("foo");   // yyyy/mm/dd HH:MM:SS WARNING: foo
+log.error("foo");  // yyyy/mm/dd HH:MM:SS ERROR: foo
 log.die("foo");    // yyyy/mm/dd HH:MM:SS ERROR: foo
 ```
 
@@ -51,6 +52,6 @@ The available properties for setTheme is:
 * level_0: logger.info, default: "grey"
 * level_1: logger.notice, default: "yellow"
 * level_2: logger.warn, default: "red"
-* level_3: logger.die, default: ["bold", "red"]
+* level_3: logger.die/logger.error, default: ["bold", "red"]
 
 The available values for themes are listed here: https://npmjs.com/package/colors
