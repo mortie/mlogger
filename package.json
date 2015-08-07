@@ -14,5 +14,9 @@
   "license": "GPLv2",
   "dependencies": {
     "colors": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.mort.coffee/mort/logger"
   }
 }
