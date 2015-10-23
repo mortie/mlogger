@@ -7,7 +7,7 @@ mLogger is a very simple logging library for node.js.
 Install like any other NPM library:
 
 ```
-npm install --save logger
+npm install --save mlogger
 ```
 
 ## Usage
