@@ -1,6 +1,6 @@
 {
   "name": "mlogger",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Tiny logging library for node.js.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://git.mort.coffee/mort/mlogger"
+    "url": "https://github.com/mortie/mlogger"
   }
 }
